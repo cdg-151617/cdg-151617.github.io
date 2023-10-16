@@ -1,10 +1,40 @@
-.navbar {
-    background-color: azure;
+body{
+    margin:50px;
+    font-family:'Times New Roman';
 }
-
-.card {
-    background-color: lightgrey;
-    border-color: grey;
-    height: 100%;
+h1{
+    text-align:center;
 }
-
+.navbar{
+    background-image:url(image/background.jpg);
+    background-color: gainsboro;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin-bottom: 30px;
+    }
+.navbar-brand {
+    padding: 10px;
+    font-size: 25px;
+}
+a.active {
+    text-decoration: underline;
+}
+.container{
+    margin-top:50px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:50px;
+}
+.card-body{
+    background-image:url(image/background.jpg);
+    background-color: gainsboro;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.card-title {
+    font-weight: bold;
+}
